@@ -1,0 +1,10 @@
+flask
+torch
+torchaudio
+speechbrain
+openai-whisper
+scikit-learn
+numpy
+soundfile
+transformers
+librosa

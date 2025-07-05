@@ -1,0 +1,6 @@
+venv-claire/
+__pycache__/
+*.pyc
+uploads/
+logs/
+*.wav
