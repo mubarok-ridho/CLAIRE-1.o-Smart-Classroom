@@ -28,6 +28,8 @@ cd claire
 
 ```
 
+---
+
 ### ⚙️ Set Up Virtual Environment
 It's highly recommended to use a virtual environment (venv) to avoid library conflicts. Here’s how you can set it up:
 
@@ -52,6 +54,8 @@ don't forget to install the library needed :
 ```bash
 pip install -r requirements.txt
 ```
+---
+
 ### 👩🏻‍💻 Usage
 Running the Backend with this command:
 ```bash
