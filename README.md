@@ -75,22 +75,23 @@ python app.py
 
 ## 🔌 Pin Configuration
 
-<div align="center">
-| **Components** | **Pin Modul** | **Pin ESP32** |
-|--------------|---------------|-----------------------|
-| **SD Card**  | CS            | GPIO5                 |
-|              | MOSI          | GPIO23                |
-|              | MISO          | GPIO19                |
-|              | SCK           | GPIO18                |
-|              | VCC           | VIN / 3.3V            |
-|              | GND           | GND                   |
-| **INMP441**  | VCC           | 3.3V                  |
-|              | GND           | GND                   |
-|              | WS (LRCLK)    | GPIO25                |
-|              | SCK (BCLK)    | GPIO26                |
-|              | SD (DOUT)     | GPIO33                |
-</div>
----
+Here’s the recommended pin configuration for connecting your components to the **ESP32**:
+
+| **Component** | **Module Pin** | **ESP32 Pin (Recommended)** |
+|---------------|----------------|----------------------------|
+| **SD Card**   | CS             | GPIO5                      |
+|               | MOSI           | GPIO23                     |
+|               | MISO           | GPIO19                     |
+|               | SCK            | GPIO18                     |
+|               | VCC            | VIN / 3.3V                 |
+|               | GND            | GND                        |
+| **INMP441**   | VCC            | 3.3V                       |
+|               | GND            | GND                        |
+|               | WS (LRCLK)     | GPIO25                     |
+|               | SCK (BCLK)     | GPIO26                     |
+|               | SD (DOUT)      | GPIO33                     |
+
+----
 
 ### 📷 Pin Configuration Diagram
 ![Pin Configuration](blueprint.png)
