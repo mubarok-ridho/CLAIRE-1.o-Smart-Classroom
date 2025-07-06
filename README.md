@@ -35,3 +35,6 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/claire.git
 cd claire
+---
+
+### 1. Clone the Repository
