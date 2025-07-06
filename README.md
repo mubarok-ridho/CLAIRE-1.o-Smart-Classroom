@@ -71,11 +71,13 @@ python app.py
 - Set Wi-Fi credentials and backend URL in the ESP32 code.
 - The ESP32 will automatically record and upload audio for processing.
 
+---
+
 ## 🔌 Pin Configuration
 
-Set the configuration pin on esp 32 with the other components
+Here’s the recommended pin configuration for connecting your components to the **ESP32**:
 
-| **Components** | **Pin** | **ESP32** |
+| **Components** | **Pin Modul** | **Pin ESP32** |
 |--------------|---------------|-----------------------|
 | **SD Card**  | CS            | GPIO5                 |
 |              | MOSI          | GPIO23                |
@@ -89,4 +91,7 @@ Set the configuration pin on esp 32 with the other components
 |              | SCK (BCLK)    | GPIO26                |
 |              | SD (DOUT)     | GPIO33                |
 
+---
+
+### 📷 Pin Configuration Diagram
 ![Pin Configuration](blueprint.png)
