@@ -45,3 +45,15 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/claire.git
 cd claire
+```
+
+### 2. Set Up Virtual Environment
+It's highly recommended to use a virtual environment (venv) to avoid library conflicts. Here’s how you can set it up:
+
+#### 2.1 Create a Virtual Environment
+Create a new virtual environment in the project directory. This isolates the dependencies for this project from other Python projects on your machine.
+
+Run the following command:
+```bash
+python -m venv venv-claire
+```
