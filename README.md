@@ -1,5 +1,8 @@
 # CLAIRE - Classroom Audio Recorder & Analysis
 
+[![PyPI version](https://badge.fury.io/py/claire.svg)](https://badge.fury.io/py/claire)
+
+
 CLAIRE is an AI-powered classroom tool designed to record, transcribe, and analyze lectures. Using advanced speech recognition and natural language processing (NLP), CLAIRE provides insights into speaker effectiveness and learning material clarity.
 
 ---
@@ -25,7 +28,7 @@ cd claire
 
 ```
 
-### 2. Set Up Virtual Environment
+### ⚙️ Set Up Virtual Environment
 It's highly recommended to use a virtual environment (venv) to avoid library conflicts. Here’s how you can set it up:
 
 Create and activate a virtual environment:
@@ -49,7 +52,7 @@ don't forget to install the library needed :
 ```bash
 pip install -r requirements.txt
 ```
-### 🚀 Usage
+### 👩🏻‍💻 Usage
 Running the Backend with this command:
 ```bash
 python app.py
