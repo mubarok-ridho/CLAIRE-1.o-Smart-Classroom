@@ -1,4 +1,4 @@
-# CLAIRE - Classroom Audio Recorder & Analysis
+# CLAIRE - Classroom Listening and Analytics for Insightful Realtime Evaluation
 
 [![PyPI version](https://badge.fury.io/py/claire.svg)](https://badge.fury.io/py/claire)
 
