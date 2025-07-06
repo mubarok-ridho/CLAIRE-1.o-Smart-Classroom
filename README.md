@@ -85,6 +85,9 @@ Here’s the recommended pin configuration for connecting your components to the
 |               | SCK            | GPIO18                     |
 |               | VCC            | VIN / 3.3V                 |
 |               | GND            | GND                        |
+
+----
+
 | **INMP441**   | VCC            | 3.3V                       |
 |               | GND            | GND                        |
 |               | WS (LRCLK)     | GPIO25                     |
