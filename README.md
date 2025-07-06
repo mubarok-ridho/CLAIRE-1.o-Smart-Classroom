@@ -28,10 +28,39 @@ cd claire
 ### 2. Set Up Virtual Environment
 It's highly recommended to use a virtual environment (venv) to avoid library conflicts. Here’s how you can set it up:
 
-#### 2.1 Create a Virtual Environment
-Create a new virtual environment in the project directory. This isolates the dependencies for this project from other Python projects on your machine.
-
-Run the following command:
+Create and activate a virtual environment:
 ```bash
 python -m venv venv-claire
 ```
+
+Activate the environment:
+
+Windows:
+```bash
+.\venv-claire\Scripts\activate
+```
+
+Mac/Linux:
+```bash
+source venv-claire/bin/activate
+```
+
+don't forget to install the library needed :
+```bash
+pip install -r requirements.txt
+```
+### 🚀 Usage
+Running the Backend with this command:
+```bash
+python app.py
+```
+
+#### The server will be available at:
+- Local: http://127.0.0.1:5000
+- Local Network: http://<Your-IP>:5000
+
+#### ESP32 Setup for Audio Recording
+- Upload the code (claire.ino) to your ESP32 using Arduino IDE.
+- Set Wi-Fi credentials and backend URL in the ESP32 code.
+- The ESP32 will automatically record and upload audio for processing.
+
