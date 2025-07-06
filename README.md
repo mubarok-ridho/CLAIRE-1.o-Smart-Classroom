@@ -75,8 +75,7 @@ python app.py
 
 ## 🔌 Pin Configuration
 
-Here’s the recommended pin configuration for connecting your components to the **ESP32**:
-
+<div align="center">
 | **Components** | **Pin Modul** | **Pin ESP32** |
 |--------------|---------------|-----------------------|
 | **SD Card**  | CS            | GPIO5                 |
@@ -90,7 +89,7 @@ Here’s the recommended pin configuration for connecting your components to the
 |              | WS (LRCLK)    | GPIO25                |
 |              | SCK (BCLK)    | GPIO26                |
 |              | SD (DOUT)     | GPIO33                |
-
+</div>
 ---
 
 ### 📷 Pin Configuration Diagram
