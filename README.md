@@ -33,3 +33,31 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/your-username/claire.git
 cd claire
+
+### 2. Set Up Virtual Environment
+####1. Create a Virtual Environment:
+
+It is highly recommended to use a virtual environment to avoid library conflicts.
+ 
+ ```bash
+ python -m venv venv-claire
+
+####2. Activate the Virtual Environment:
+
+On Windows:
+
+ ```bash
+.\venv-claire\Scripts\activate
+
+On Mac/Linux:
+
+ ```bash
+source venv-claire/bin/activate
+
+### 3. Install Dependencies
+Once the virtual environment is activated, install the required libraries:
+
+ ```bash
+pip install -r requirements.txt
+
+This will install all necessary libraries, including Flask, SpeechBrain, Whisper, and other machine learning and data processing dependencies.
