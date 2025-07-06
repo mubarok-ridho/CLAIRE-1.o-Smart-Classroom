@@ -89,4 +89,4 @@ Set the configuration pin on esp 32 with the other components
 |              | SCK (BCLK)    | GPIO26                |
 |              | SD (DOUT)     | GPIO33                |
 
-![Pin Configuration](images/blueprint.png)
+![Pin Configuration](blueprint.png)
