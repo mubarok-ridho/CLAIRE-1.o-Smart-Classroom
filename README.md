@@ -88,6 +88,8 @@ Here’s the recommended pin configuration for connecting your components to the
 
 ----
 
+| **Component** | **Module Pin** | **ESP32 Pin (Recommended)** |
+|---------------|----------------|----------------------------|
 | **INMP441**   | VCC            | 3.3V                       |
 |               | GND            | GND                        |
 |               | WS (LRCLK)     | GPIO25                     |
